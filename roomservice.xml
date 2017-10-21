@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS/android_device_motorola_osprey" path="device/motorola/osprey" remote="github" />
+  <project name="LineageOS/android_device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github" />
+  <project name="LineageOS/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" />
+  <project name="LineageOS/android_external_bson" path="external/bson" remote="github" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+  <project name="LineageOS/android_device_samsung_gts210ltexx" path="device/samsung/gts210ltexx" remote="github" />
+  <project name="LineageOS/android_device_samsung_gts2-common" path="device/samsung/gts2-common" remote="github" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5433" path="hardware/samsung_slsi-cm/exynos5433" remote="github" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" />
+  <project name="LineageOS/android_kernel_samsung_gts2" path="kernel/samsung/gts2" remote="github" />
+</manifest>
