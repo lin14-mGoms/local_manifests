@@ -9,6 +9,6 @@
   <remove-project name="LineageOS/android_kernel_motorola_msm8916" />
   <project name="sultanqasim/android_kernel_motorola_msm8916" 
            path="kernel/motorola/msm8916" 
-           remote="github" revision="squid_nougat" />
+           remote="github" revision="squid_oreo" />
 
 </manifest>

@@ -14,4 +14,7 @@
   <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5433" path="hardware/samsung_slsi-cm/exynos5433" remote="github" />
   <project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" />
   <project name="LineageOS/android_kernel_samsung_gts2" path="kernel/samsung/gts2" remote="github" />
+  <project name="LineageOS/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" />
+  <project name="LineageOS/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" />
+  <project name="LineageOS/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" />
 </manifest>

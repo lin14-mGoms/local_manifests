@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Jelly Browser -->
+
+  <!-- Forked Jelly Browser -->
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
   <project path="packages/apps/Jelly" name="MSe1969/android_packages_apps_Jelly" />  
 
-  <!-- Webview from cm12-amami -->
-  <remove-project name="LineageOS/android_external_chromium-webview" />
-  <project path="external/chromium-webview-arm" 
-           name="cm12-amami/android_external_chromium-webview-arm" 
-           clone-depth="1" revision="master" />
+  <!-- microG Build, prebuilt apks -->
+  <project path="prebuilts/prebuiltapks" 
+           name="lineageos4microg/android_prebuilts_prebuiltapks" 
+           revision="master" />
 
   <!-- Linaro Cross-compiler -->
   <project path="prebuilts/gcc/linux-x86/arm/linaro-arm-eabi-6.4" 
