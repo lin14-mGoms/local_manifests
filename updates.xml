@@ -15,5 +15,10 @@
            name="MSe1969/prebuilt_linaro_gcc_arm-eabi" 
            clone-depth="1" revision="6.4.1" />
 
+  <!-- Privacy friendly netmonitor -->
+  <project path="external/privacy-friendly-netmonitor"
+           name="MSe1969/privacy-friendly-netmonitor-prebuilt"
+           revision="master" />
+
 </manifest> 
 
