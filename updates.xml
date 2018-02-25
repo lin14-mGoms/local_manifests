@@ -20,5 +20,26 @@
            name="MSe1969/privacy-friendly-netmonitor-prebuilt"
            revision="master" />
 
+  <!-- Patches Directory -->
+  <project path="z_patches" name="cm13-microG/z_patches" revision="cm-14.1" />
+
+  <!-- CM FileManager -->
+  <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" />
+  <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
+
+  <!-- Replaced/enhanced Repositories -->
+  <remove-project name="LineageOS/android_external_sqlite" />
+  <project path="external/sqlite" name="cm13-microG/android_external_sqlite" />  
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/base" name="cm13-microG/android_frameworks_base" />  
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <project path="frameworks/native" name="cm13-microG/android_frameworks_native" />  
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="cm13-microG/android_packages_apps_Settings" />  
+  <remove-project name="LineageOS/android_system_sepolicy" />
+  <project path="system/sepolicy" name="cm13-microG/android_system_sepolicy" />  
+  <remove-project name="LineageOS/android_vendor_cm" />
+  <project path="vendor/cm" name="cm13-microG/android_vendor_cm" />  
+  
 </manifest> 
 
