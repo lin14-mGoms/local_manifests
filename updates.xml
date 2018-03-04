@@ -23,10 +23,6 @@
   <!-- Patches Directory -->
   <project path="z_patches" name="cm13-microG/z_patches" revision="cm-14.1" />
 
-  <!-- CM FileManager -->
-  <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" />
-  <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
-
   <!-- Replaced/enhanced Repositories -->
   <remove-project name="LineageOS/android_external_sqlite" />
   <project path="external/sqlite" name="cm13-microG/android_external_sqlite" />  
