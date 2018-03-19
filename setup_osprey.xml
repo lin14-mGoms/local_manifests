@@ -5,6 +5,11 @@
        Since local manifests are processed in alphabetical order, manifests
        replacing stuff in 'roomservices.xml' must be named to come afterwards. -->  
 
+  <!-- Own device configuration -->
+  <remove-project name="LineageOS/android_device_motorola_msm8916-common" />
+  <project name="cm13-microG/android_device_motorola_msm8916-common" 
+           path="device/motorola/msm8916-common" remote="github" />
+
   <!-- MSM8916 N 'Squid-Kernel' -->
   <remove-project name="LineageOS/android_kernel_motorola_msm8916" />
   <project name="sultanqasim/android_kernel_motorola_msm8916" 
