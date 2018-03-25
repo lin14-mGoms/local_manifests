@@ -36,6 +36,8 @@
   <project path="frameworks/native" name="cm13-microG/android_frameworks_native" />  
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="cm13-microG/android_packages_apps_Settings" />  
+  <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
+  <project path="packages/apps/SetupWizard" name="cm13-microG/android_packages_apps_SetupWizard" />  
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project path="system/sepolicy" name="cm13-microG/android_system_sepolicy" />  
   <remove-project name="LineageOS/android_vendor_cm" />
