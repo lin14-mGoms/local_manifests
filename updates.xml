@@ -17,7 +17,7 @@
 
   <!-- Privacy friendly netmonitor -->
   <project path="external/privacy-friendly-netmonitor"
-           name="MSe1969/privacy-friendly-netmonitor-prebuilt"
+           name="cm13-microG/privacy-friendly-netmonitor-prebuilt"
            revision="master" />
 
   <!-- Patches Directory -->
