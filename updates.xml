@@ -30,18 +30,19 @@
   <!-- Replaced/enhanced Repositories -->
   <remove-project name="LineageOS/android_external_sqlite" />
   <project path="external/sqlite" name="cm13-microG/android_external_sqlite" revision="cm-14.1-microG" />  
-  <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="cm13-microG/android_frameworks_base" revision="cm-14.1-microG" />  
-  <remove-project name="LineageOS/android_frameworks_native" />
-  <project path="frameworks/native" name="cm13-microG/android_frameworks_native" revision="cm-14.1-microG" />  
-  <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="cm13-microG/android_packages_apps_Settings" revision="cm-14.1-microG" />  
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SetupWizard" name="cm13-microG/android_packages_apps_SetupWizard" revision="cm-14.1-microG" />  
+
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/base" name="cm13-microG/android_frameworks_base" revision="cm-14.1-mG-oms" />  
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <project path="frameworks/native" name="cm13-microG/android_frameworks_native" revision="cm-14.1-mG-oms" />  
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="cm13-microG/android_packages_apps_Settings" revision="cm-14.1-mG-oms" />  
   <remove-project name="LineageOS/android_system_sepolicy" />
-  <project path="system/sepolicy" name="cm13-microG/android_system_sepolicy" revision="cm-14.1-microG" />  
+  <project path="system/sepolicy" name="cm13-microG/android_system_sepolicy" revision="cm-14.1-mG-oms" />  
   <remove-project name="LineageOS/android_vendor_cm" />
-  <project path="vendor/cm" name="cm13-microG/android_vendor_cm" revision="cm-14.1-microG" />  
+  <project path="vendor/cm" name="cm13-microG/android_vendor_cm" revision="cm-14.1-mG-oms" />  
   
 </manifest> 
 
