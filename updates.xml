@@ -21,8 +21,8 @@
            revision="master" />
 
   <!-- Patches & root-scripts Directory -->
-  <project path="z_patches" name="cm13-microG/z_patches" revision="cm-14.1-microG" />
-  <project path="z_patches/root-scripts" name="cm13-microG/root-scripts" revision="master" />
+  <project path="z_patches" name="cm13-microG/z_patches" revision="cm-14.1-mG-oms" />
+  <project path="z_patches/root-scripts" name="cm13-microG/root-scripts" revision="cm-14.1" />
 
   <!-- CA Certificates from AOSP master branch -->
   <remove-project name="platform/system/ca-certificates" />
