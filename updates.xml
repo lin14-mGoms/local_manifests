@@ -27,6 +27,11 @@
   <remove-project name="platform/system/ca-certificates" />
   <project name="platform/system/ca-certificates" path="system/ca-certificates" remote="aosp" revision="master" />
 
+  <!-- LineageOS Android System Webview from 'lineage-15.1' branch -->
+  <remove-project name="LineageOS/android_external_chromium-webview" />
+  <project name="LineageOS/android_external_chromium-webview" 
+           path="external/chromium-webview" clone-depth="1" revision="lineage-15.1" />
+
   <!-- Replaced/enhanced Repositories -->
   <remove-project name="LineageOS/android_external_sqlite" />
   <project path="external/sqlite" name="cm13-microG/android_external_sqlite" />  
