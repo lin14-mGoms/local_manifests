@@ -11,6 +11,9 @@
            clone-depth="1" revision="master" />
 
   <!-- Linaro Cross-compiler -->
+  <project path="prebuilts/gcc/linux-x86/arm/linaro-arm-eabi-5.4" 
+           name="MSe1969/prebuilt_linaro_gcc_arm-eabi" 
+           clone-depth="1" revision="5.4.1" />
   <project path="prebuilts/gcc/linux-x86/arm/linaro-arm-eabi-6.4" 
            name="MSe1969/prebuilt_linaro_gcc_arm-eabi" 
            clone-depth="1" revision="6.4.1" />
