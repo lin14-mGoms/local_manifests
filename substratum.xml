@@ -8,12 +8,12 @@
     <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
     <remove-project name="LineageOS/android_packages_apps_PhoneCommon" />
 
-    <project path="packages/apps/Contacts" name="cm13-microG/android_packages_apps_Contacts" />
-    <project path="packages/apps/ContactsCommon" name="cm13-microG/android_packages_apps_ContactsCommon" />
-    <project path="packages/apps/Dialer" name="cm13-microG/android_packages_apps_Dialer" />
-    <project path="packages/apps/ExactCalculator" name="cm13-microG/android_packages_apps_ExactCalculator" />
-    <project path="packages/apps/PackageInstaller" name="cm13-microG/android_packages_apps_PackageInstaller" />
-    <project path="packages/apps/PhoneCommon" name="cm13-microG/android_packages_apps_PhoneCommon" />
+    <project path="packages/apps/Contacts" name="lin14-mGoms/android_packages_apps_Contacts" />
+    <project path="packages/apps/ContactsCommon" name="lin14-mGoms/android_packages_apps_ContactsCommon" />
+    <project path="packages/apps/Dialer" name="lin14-mGoms/android_packages_apps_Dialer" />
+    <project path="packages/apps/ExactCalculator" name="lin14-mGoms/android_packages_apps_ExactCalculator" />
+    <project path="packages/apps/PackageInstaller" name="lin14-mGoms/android_packages_apps_PackageInstaller" />
+    <project path="packages/apps/PhoneCommon" name="lin14-mGoms/android_packages_apps_PhoneCommon" />
 
     <!-- Track ThemeInterfacer -->
     <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
