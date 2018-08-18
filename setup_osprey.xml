@@ -7,8 +7,8 @@
 
   <!-- MSM8916 N 'Squid-Kernel' -->
   <remove-project name="LineageOS/android_kernel_motorola_msm8916" />
-  <project name="cm13-microG/android_kernel_motorola_msm8916" 
-           path="kernel/motorola/msm8916" 
+  <project name="lin14-mGoms/android_kernel_motorola_msm8916"
+           path="kernel/motorola/msm8916"
            remote="github" revision="mse_v1" />
 
 </manifest>
