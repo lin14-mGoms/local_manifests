@@ -9,7 +9,7 @@ and run the following commands:
 ```Shell session
 repo init -u https://github.com/LineageOS/android.git -b cm-14.1
 cd .repo
-git clone https://github.com/cm13-microG/local_manifests
+git clone https://github.com/lin14-mGoms/local_manifests
 cd local_manifests
 git checkout cm-14.1-oms
 cd ../..
@@ -30,3 +30,8 @@ to your needs.
    - **CMUpdater** (unofficial build, so no update server)
 4. Patched for 'microG' (see microg.org)
 5. OMS enabled build (compatible to 'substratum')
+
+## In case you would like to build the osprey device
+You need the Linaro GCC 7.3 cross compiler to build the kernel! Get it either from the Linaro web site or build it yourself.
+To build yourself, clone the https://github.com/nathanchance/build-tools-gcc repository and run the ./build script afterwards.
+Take the build_opsprey.sh script and adapt its location accordingly!
