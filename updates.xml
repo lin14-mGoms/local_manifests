@@ -10,6 +10,9 @@
            name="lineageos4microg/android_prebuilts_prebuiltapks"
            clone-depth="1" revision="master" />
 
+  <!-- Bromite SystemWebView prebuilt-->
+  <project path="external/bromite-webview" name="MSe1969/android_external_bromite-webview" revision="master" />
+
   <!-- Privacy friendly netmonitor -->
   <project path="external/secuso/privacy-friendly-netmonitor"
            name="MSe1969/privacy-friendly-netmonitor-prebuilt"
