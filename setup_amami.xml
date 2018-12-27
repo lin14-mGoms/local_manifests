@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="cm12-amami/android_device_sony_amami" path="device/sony/amami" />
+    <project name="cm12-amami/android_device_sony_rhine-common" path="device/sony/rhine-common" />
+    <project name="cm12-amami/android_device_sony_msm8974-common" path="device/sony/msm8974-common" />
+    <project name="cm12-amami/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-14.1-test"/>
+    <project name="sonyxperiadev/boringssl-compat" path="external/sony/boringssl-compat" revision="master"/>
+    <project name="LineageOS/android_device_sony_common" path="device/sony/common" />
+    <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" />
+    <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" />
+    <project name="LineageOS/android_external_stlport" path="external/stlport" />
+</manifest>
