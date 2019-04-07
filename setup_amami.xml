@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!--
     <project name="cm12-amami/android_device_sony_amami" path="device/sony/amami" />
     <project name="cm12-amami/android_device_sony_rhine-common" path="device/sony/rhine-common" />
     <project name="cm12-amami/android_device_sony_msm8974-common" path="device/sony/msm8974-common" />
@@ -9,4 +10,5 @@
     <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" />
     <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" />
     <project name="LineageOS/android_external_stlport" path="external/stlport" />
+    -->
 </manifest>
