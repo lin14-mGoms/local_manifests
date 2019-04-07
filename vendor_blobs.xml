@@ -2,6 +2,6 @@
 <manifest>
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" clone-depth="1" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" clone-depth="1" />
-  <project name="AICP/proprietary_vendor_sony" path="vendor/sony" revision="n7.1" clone-depth="1" />
+  <!--project name="AICP/proprietary_vendor_sony" path="vendor/sony" revision="n7.1" clone-depth="1" /-->
 </manifest> 
 
