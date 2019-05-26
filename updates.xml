@@ -20,8 +20,8 @@
            name="MSe1969/privacy-friendly-netmonitor-prebuilt"
            revision="master" />
 
-  <!-- YalpStore prebuilt-->
-  <project path="prebuilts/yalpstore" name="MSe1969/YalpStore-prebuilt" revision="master" />
+  <!-- AuroraStore prebuilt-->
+  <project path="prebuilts/Aurorastore" name="MSe1969/AuroraStore-prebuilt" revision="master" />
 
   <!-- Patches & root-scripts Directory -->
   <project path="z_patches" name="lin14-mGoms/z_patches" revision="cm-14.1-mG-oms" />
