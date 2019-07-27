@@ -11,4 +11,8 @@
            path="kernel/motorola/msm8226"
            remote="github" revision="mse_v1" />
 
+  <!-- Own Device config -->
+  <remove-project name="LineageOS/android_device_motorola_falcon" />
+  <project name="lin14-mGoms/android_device_motorola_falcon" path="device/motorola/falcon" />
+
 </manifest>
