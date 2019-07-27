@@ -11,4 +11,8 @@
            path="kernel/samsung/gts2"
            remote="github" revision="mse_v4" />
 
+  <!-- Own Device config -->
+  <remove-project name="LineageOS/android_device_samsung_gts210ltexx" />
+  <project name="lin14-mGoms/android_device_samsung_gts210ltexx" path="device/samsung/gts210ltexx" />
+
 </manifest>
