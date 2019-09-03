@@ -26,10 +26,8 @@ to your needs.
 ## Differences to 'vanilla' LineageOS 14.1
 1. Fork of LineageOS Jelly browser (Qwant and StartPage as addl. search engines)
 2. Osprey-device only: Use Squid Kernel (oreo branch)
-3. Removed below packages from the build:
-   - **CMUpdater** (unofficial build, so no update server)
-4. Patched for 'microG' (see microg.org)
-5. OMS enabled build (compatible to 'substratum')
+3. Patched for 'microG' (see microg.org)
+4. OMS enabled build (compatible to 'substratum')
 
 ## In case you would like to build the osprey device
 You need the Linaro GCC 7.3 cross compiler to build the kernel! Get it either from the Linaro web site or build it yourself.
