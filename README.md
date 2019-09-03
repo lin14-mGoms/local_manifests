@@ -26,9 +26,7 @@ to your needs.
 ## Differences to 'vanilla' LineageOS 14.1
 1. Fork of LineageOS Jelly browser (Qwant and StartPage as addl. search engines)
 2. Osprey-device only: Use Squid Kernel (oreo branch)
-3. Removed below packages from the build:
-   - **CMUpdater** (unofficial build, so no update server)
-4. 'microG build' having the following features:
+3. 'microG build' having the following features:
    - Prebuilt 'microG' apps included
    - Enhanced SELinux policies (restrict /proc timers and /proc/net)
    - Additional AppOps (Sensor, Storage) in Privacy Guard
