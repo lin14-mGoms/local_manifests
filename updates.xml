@@ -30,11 +30,6 @@
   <project path="z_patches" name="lin14-mGoms/z_patches" revision="cm-14.1-oms" />
   <project path="z_patches/root-scripts" name="lin14-mGoms/root-scripts" revision="cm-14.1" />
 
-  <!-- LineageOS Android System Webview from 'lineage-16.0' branch -->
-  <remove-project name="LineageOS/android_external_chromium-webview" />
-  <project name="LineageOS/android_external_chromium-webview" 
-           path="external/chromium-webview" clone-depth="1" revision="lineage-16.0" />
-
   <!-- Replaced/enhanced Repositories -->
   <remove-project name="LineageOS/android_external_sqlite" />
   <project path="external/sqlite" name="lin14-mGoms/android_external_sqlite" />
