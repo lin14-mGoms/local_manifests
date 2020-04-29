@@ -5,6 +5,12 @@
        Since local manifests are processed in alphabetical order, manifests
        replacing stuff in 'roomservices.xml' must be named to come afterwards. -->  
 
+  <!-- Linaro arm 7.5.0 GCC cross-compiler for Kernel -->
+  <remote name="sourceforge" fetch="https://mse1969@git.code.sf.net" />
+  <project name="p/lin14-mgoms/code" remote="sourceforge" revision="7.5.0"
+           path="prebuilts/gcc/linux-x86/arm/arm-linux-gnueabi" />
+
+
   <!-- MSM8916 N 'Squid-Kernel' -->
   <remove-project name="LineageOS/android_kernel_motorola_msm8916" />
   <project name="lin14-mGoms/android_kernel_motorola_msm8916"
