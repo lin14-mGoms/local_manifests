@@ -1,6 +1,6 @@
 # local_manifests
 
-To build my specific LineageOS 14.1 version for the Osprey, Falcon and SM-T815 device, follow the steps below:
+To build my specific LineageOS 14.1 version for the Osprey, Falcon, Peregrine and SM-T815 device, follow the steps below:
 
 ## Setup build tree
 Create the directory, which should hold your build tree, 'cd' into it
@@ -28,6 +28,5 @@ to your needs.
 3. If you have applied the patches in the z_patches directory: microG-patch
 
 ## In case you would like to build the osprey device
-You need the Linaro GCC 7.3 cross compiler to build the kernel! Get it either from the Linaro web site or build it yourself.
-To build yourself, clone the https://github.com/nathanchance/build-tools-gcc repository and run the ./build script afterwards.
-Take the build_opsprey.sh script and adapt its location accordingly!
+You need the Linaro GCC 7.3 cross compiler to build the kernel! 
+If you have followed the above instructions, this will be already the case as part of the build tree and configuration.
