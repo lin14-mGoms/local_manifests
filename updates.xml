@@ -37,6 +37,8 @@
   <project path="external/sqlite" name="lin14-mGoms/android_external_sqlite" revision="cm-14.1-microG" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SetupWizard" name="lin14-mGoms/android_packages_apps_SetupWizard" revision="cm-14.1-microG" />
+  <remove-project name="LineageOS/android_system_core" />
+  <project path="system/core" name="lin14-mGoms/android_system_core" revision="cm-14.1-microG" />
   <remove-project name="LineageOS/android_system_netd" />
   <project path="system/netd" name="lin14-mGoms/android_system_netd" revision="cm-14.1-microG" />
 
