@@ -11,7 +11,7 @@
   <!-- microG Build, prebuilt apks -->
   <project path="prebuilts/prebuiltapks"
            name="MSe1969/android_prebuilts_prebuiltapks"
-           clone-depth="1" revision="master" />
+           clone-depth="1" revision="legacy" />
 
   <!-- Bromite SystemWebView prebuilt-->
   <project path="external/bromite-webview" 
@@ -24,7 +24,7 @@
            revision="master" />
 
   <!-- AuroraStore prebuilt-->
-  <project path="prebuilts/Aurorastore" name="MSe1969/AuroraStore-prebuilt" revision="master" clone-depth="1" />
+  <project path="prebuilts/Aurorastore" name="MSe1969/AuroraStore-prebuilt" revision="legacy" clone-depth="1" />
 
   <!-- Patches & root-scripts Directory -->
   <project path="z_patches" name="lin14-mGoms/z_patches" revision="cm-14.1" />
