@@ -18,4 +18,5 @@
   <project name="LineageOS/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" />
   <project name="LineageOS/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" />
   <project name="LineageOS/android_device_motorola_peregrine" path="device/motorola/peregrine" remote="github" />
+  <project name="LineageOS/android_device_generic_emulatorx86" path="device/generic/emulatorx86" remote="github" />
 </manifest>
