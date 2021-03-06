@@ -31,7 +31,7 @@
   <project path="z_patches/root-scripts" name="lin14-mGoms/root-scripts" revision="cm-14.1" />
 
   <!-- Replaced/enhanced Repositories -->
-  <remove-project name="platform/external/iptables" />
+  <remove-project name="LineageOS/android_external_iptables" />
   <project path="external/iptables" name="lin14-mGoms/android_external_iptables" groups="pdk" revision="cm-14.1-microG" />
   <remove-project name="LineageOS/android_external_sqlite" />
   <project path="external/sqlite" name="lin14-mGoms/android_external_sqlite" />
