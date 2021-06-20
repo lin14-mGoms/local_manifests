@@ -31,6 +31,8 @@
   <project path="z_patches/root-scripts" name="lin14-mGoms/root-scripts" revision="cm-14.1" />
 
   <!-- Replaced/enhanced Repositories -->
+  <remove-project name="LineageOS/android_external_ffmpeg" />
+  <project path="external/ffmpeg" name="lin14-mGoms/android_external_ffmpeg" />
   <remove-project name="LineageOS/android_external_iptables" />
   <project path="external/iptables" name="lin14-mGoms/android_external_iptables" groups="pdk" />
   <remove-project name="LineageOS/android_external_sqlite" />
