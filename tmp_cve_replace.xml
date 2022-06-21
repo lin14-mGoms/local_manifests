@@ -2,6 +2,7 @@
 <manifest>
     <!-- Replace Lineage repos with own forks, due to not merged CVE from LOS gerrit -->
     <remove-project name="LineageOS/android_bionic" />
+    <remove-project name="LineageOS/android_external_aac" />
     <remove-project name="LineageOS/android_external_icu" />
     <remove-project name="LineageOS/android_external_libavc" />
     <remove-project name="LineageOS/android_external_libexif" />
@@ -9,12 +10,16 @@
     <remove-project name="LineageOS/android_external_sonivox" />
     <remove-project name="LineageOS/android_external_tremolo" />
     <remove-project name="LineageOS/android_frameworks_av" />
+    <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
     <remove-project name="LineageOS/android_packages_apps_KeyChain" />
     <remove-project name="LineageOS/android_packages_apps_Nfc" />
     <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
+    <remove-project name="LineageOS/android_packages_services_Telecomm" />
     <remove-project name="LineageOS/android_system_bt" />
+    <remove-project name="platform/system/ca-certificates" />
 
     <project path="bionic" name="lin14-mGoms/android_bionic" revision="cm-14.1" />
+    <project path="external/aac" name="lin14-mGoms/android_external_aac" revision="lineage-17.1" />
     <project path="external/icu" name="lin14-mGoms/android_external_icu" revision="cm-14.1" />
     <project path="external/libavc" name="lin14-mGoms/android_external_libavc" revision="cm-14.1" />
     <project path="external/libexif" name="lin14-mGoms/android_external_libexif" revision="cm-14.1" />
@@ -22,8 +27,11 @@
     <project path="external/sonivox" name="lin14-mGoms/android_external_sonivox" revision="cm-14.1" />
     <project path="external/tremolo" name="lin14-mGoms/android_external_tremolo" revision="cm-14.1" />
     <project path="frameworks/av" name="lin14-mGoms/android_frameworks_av" revision="cm-14.1" />
+    <project path="packages/apps/Bluetooth" name="lin14-mGoms/android_packages_apps_Bluetooth" revision="cm-14.1" />
     <project path="packages/apps/KeyChain" name="lin14-mGoms/android_packages_apps_KeyChain" revision="cm-14.1" />
     <project path="packages/apps/Nfc" name="lin14-mGoms/android_packages_apps_Nfc" revision="cm-14.1" />
     <project path="packages/providers/MediaProvider" name="lin14-mGoms/android_packages_providers_MediaProvider" revision="cm-14.1" />
+    <project path="packages/services/Telecomm" name="lin14-mGoms/android_packages_services_Telecomm" revision="cm-14.1" />
     <project path="system/bt" name="lin14-mGoms/android_system_bt" revision="cm-14.1" />
+    <project path="system/ca-certificates" name="lin14-mGoms/android_system_ca-certificates" revision="android12-release" />
 </manifest>
