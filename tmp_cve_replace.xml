@@ -17,10 +17,13 @@
     <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
     <remove-project name="LineageOS/android_packages_services_Telecomm" />
     <remove-project name="LineageOS/android_system_bt" />
+
+    <remove-project name="platform/external/expat" />
     <remove-project name="platform/system/ca-certificates" />
 
     <project path="bionic" name="lin14-mGoms/android_bionic" revision="cm-14.1" />
     <project path="external/aac" name="lin14-mGoms/android_external_aac" revision="lineage-17.1" />
+    <project path="external/expat" name="lin14-mGoms/android_external_expat" revision="cm-14.1" />
     <project path="external/icu" name="lin14-mGoms/android_external_icu" revision="cm-14.1" />
     <project path="external/libavc" name="lin14-mGoms/android_external_libavc" revision="cm-14.1" />
     <project path="external/libexif" name="lin14-mGoms/android_external_libexif" revision="cm-14.1" />
