@@ -13,6 +13,8 @@
 
   <!-- Own Device config -->
   <remove-project name="LineageOS/android_device_samsung_gts210ltexx" />
+  <remove-project name="LineageOS/android_device_samsung_gts2-common" />
   <project name="lin14-mGoms/android_device_samsung_gts210ltexx" path="device/samsung/gts210ltexx" />
+  <project name="lin14-mGoms/android_device_samsung_gts2-common" path="device/samsung/gts2-common" />
 
 </manifest>
