@@ -18,6 +18,7 @@
     <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
     <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
     <remove-project name="LineageOS/android_packages_services_Telecomm" />
+    <remove-project name="LineageOS/android_packages_services_Telephony" />
     <remove-project name="LineageOS/android_system_bt" />
 
     <remove-project name="platform/external/expat" />
@@ -41,6 +42,7 @@
     <project path="packages/providers/MediaProvider" name="lin14-mGoms/android_packages_providers_MediaProvider" revision="cm-14.1" />
     <project path="packages/providers/TelephonyProvider" name="lin14-mGoms/android_packages_providers_TelephonyProvider" revision="cm-14.1" />
     <project path="packages/services/Telecomm" name="lin14-mGoms/android_packages_services_Telecomm" revision="cm-14.1" />
+    <project path="packages/services/Telephony" name="lin14-mGoms/android_packages_services_Telephony" revision="cm-14.1" />
     <project path="system/bt" name="lin14-mGoms/android_system_bt" revision="cm-14.1" />
     <project path="system/ca-certificates" name="lin14-mGoms/android_system_ca-certificates" revision="android12-release" />
 </manifest>
