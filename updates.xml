@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="Gitlab" fetch="https://gitlab.com" />
+
   <!-- Static OTA updater resource -->
   <project path="OTA" name="lin14-mGoms/OTA" revision="cm-14.1" />
 
@@ -13,10 +15,8 @@
            name="MSe1969/android_prebuilts_prebuiltapks"
            clone-depth="1" revision="master" />
 
-  <!-- Bromite SystemWebView prebuilt-->
-  <project path="external/bromite-webview" 
-           name="MSe1969/android_external_bromite-webview" 
-           clone-depth="1" revision="master" />
+  <!-- Mulch webview -->
+  <project name="divested-mobile/mulch" path="external/Mulch" remote="Gitlab" revision="master" />
 
   <!-- Privacy friendly netmonitor -->
   <project path="external/secuso/privacy-friendly-netmonitor"
