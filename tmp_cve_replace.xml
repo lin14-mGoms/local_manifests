@@ -9,6 +9,7 @@
     <remove-project name="LineageOS/android_external_libnfc-nci" />
     <remove-project name="LineageOS/android_external_sonivox" />
     <remove-project name="LineageOS/android_external_tremolo" />
+    <remove-project name="LineageOS/android_external_zlib" />
     <remove-project name="LineageOS/android_frameworks_av" />
     <remove-project name="LineageOS/android_frameworks_minikin" />
     <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
@@ -33,6 +34,7 @@
     <project path="external/libnfc-nci" name="lin14-mGoms/android_external_libnfc-nci" revision="cm-14.1" />
     <project path="external/sonivox" name="lin14-mGoms/android_external_sonivox" revision="cm-14.1" />
     <project path="external/tremolo" name="lin14-mGoms/android_external_tremolo" revision="cm-14.1" />
+    <project path="external/zlib" name="lin14-mGoms/android_external_zlib" revision="cm-14.1" />
     <project path="frameworks/av" name="lin14-mGoms/android_frameworks_av" revision="cm-14.1" />
     <project path="frameworks/minikin" name="lin14-mGoms/android_frameworks_minikin" revision="cm-14.1" />
     <project path="packages/apps/Bluetooth" name="lin14-mGoms/android_packages_apps_Bluetooth" revision="cm-14.1" />
