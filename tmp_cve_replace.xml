@@ -15,6 +15,7 @@
     <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
     <remove-project name="LineageOS/android_packages_apps_KeyChain" />
     <remove-project name="LineageOS/android_packages_apps_Nfc" />
+    <remove-project name="LineageOS/android_packages_apps_TvSettings" />
     <remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
     <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
     <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
@@ -40,6 +41,7 @@
     <project path="packages/apps/Bluetooth" name="lin14-mGoms/android_packages_apps_Bluetooth" revision="cm-14.1" />
     <project path="packages/apps/KeyChain" name="lin14-mGoms/android_packages_apps_KeyChain" revision="cm-14.1" />
     <project path="packages/apps/Nfc" name="lin14-mGoms/android_packages_apps_Nfc" revision="cm-14.1" />
+    <project path="packages/apps/TvSettings" name="lin14-mGoms/android_packages_apps_TvSettings" groups="pdk-fs" revision="cm-14.1" />
     <project path="packages/providers/ContactsProvider" name="lin14-mGoms/android_packages_providers_ContactsProvider" revision="cm-14.1" />
     <project path="packages/providers/MediaProvider" name="lin14-mGoms/android_packages_providers_MediaProvider" revision="cm-14.1" />
     <project path="packages/providers/TelephonyProvider" name="lin14-mGoms/android_packages_providers_TelephonyProvider" revision="cm-14.1" />
