@@ -3,6 +3,7 @@
     <!-- Replace Lineage repos with own forks, due to not merged CVE from LOS gerrit -->
     <remove-project name="LineageOS/android_bionic" />
     <remove-project name="LineageOS/android_external_aac" />
+    <remove-project name="LineageOS/android_external_boringssl" />
     <remove-project name="LineageOS/android_external_icu" />
     <remove-project name="LineageOS/android_external_freetype" />
     <remove-project name="LineageOS/android_external_libavc" />
@@ -29,9 +30,10 @@
 
     <project path="bionic" name="lin14-mGoms/android_bionic" revision="cm-14.1" />
     <project path="external/aac" name="lin14-mGoms/android_external_aac" revision="lineage-17.1" />
+    <project path="external/boringssl" name="lin14-mGoms/android_external_boringssl" revision="cm-14.1" />
     <project path="external/expat" name="lin14-mGoms/android_external_expat" revision="cm-14.1" />
     <project path="external/icu" name="lin14-mGoms/android_external_icu" revision="cm-14.1" />
-    <project path="external/freetype" name="lin14-mGoms/android_external_freetype" revision="cm-14.1" />
+    <project path="external/freetype" name="LineageOS/android_external_freetype" revision="lineage-18.1" />
     <project path="external/libavc" name="lin14-mGoms/android_external_libavc" revision="cm-14.1" />
     <project path="external/libexif" name="lin14-mGoms/android_external_libexif" revision="cm-14.1" />
     <project path="external/libnfc-nci" name="lin14-mGoms/android_external_libnfc-nci" revision="cm-14.1" />
