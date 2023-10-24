@@ -5,10 +5,13 @@
     <remove-project name="LineageOS/android_external_aac" />
     <remove-project name="LineageOS/android_external_boringssl" />
     <remove-project name="LineageOS/android_external_icu" />
+    <remove-project name="LineageOS/android_external_flac" />
     <remove-project name="LineageOS/android_external_freetype" />
     <remove-project name="LineageOS/android_external_libavc" />
     <remove-project name="LineageOS/android_external_libexif" />
     <remove-project name="LineageOS/android_external_libnfc-nci" />
+    <remove-project name="LineageOS/android_external_libvpx" />
+    <remove-project name="LineageOS/android_external_libxml2" />
     <remove-project name="LineageOS/android_external_sonivox" />
     <remove-project name="LineageOS/android_external_tremolo" />
     <remove-project name="LineageOS/android_external_zlib" />
@@ -26,17 +29,23 @@
     <remove-project name="LineageOS/android_system_bt" />
 
     <remove-project name="platform/external/expat" />
+    <remove-project name="platform/external/webp" />
     <remove-project name="platform/system/ca-certificates" />
+
+    <project path="external/webp" name="LineageOS/android_external_webp" remote="github" revision="lineage-18.1" />
 
     <project path="bionic" name="lin14-mGoms/android_bionic" revision="cm-14.1" />
     <project path="external/aac" name="lin14-mGoms/android_external_aac" revision="lineage-17.1" />
     <project path="external/boringssl" name="lin14-mGoms/android_external_boringssl" revision="cm-14.1" />
     <project path="external/expat" name="lin14-mGoms/android_external_expat" revision="cm-14.1" />
     <project path="external/icu" name="lin14-mGoms/android_external_icu" revision="cm-14.1" />
+    <project path="external/flac" name="lin14-mGoms/android_external_flac" revision="cm-14.1" />
     <project path="external/freetype" name="LineageOS/android_external_freetype" revision="lineage-18.1" />
     <project path="external/libavc" name="lin14-mGoms/android_external_libavc" revision="cm-14.1" />
     <project path="external/libexif" name="lin14-mGoms/android_external_libexif" revision="cm-14.1" />
     <project path="external/libnfc-nci" name="lin14-mGoms/android_external_libnfc-nci" revision="cm-14.1" />
+    <project path="external/libvpx" name="lin14-mGoms/android_external_libvpx" revision="cm-14.1" />
+    <project path="external/libxml2" name="lin14-mGoms/android_external_libxml2" revision="cm-14.1" />
     <project path="external/sonivox" name="lin14-mGoms/android_external_sonivox" revision="cm-14.1" />
     <project path="external/tremolo" name="lin14-mGoms/android_external_tremolo" revision="cm-14.1" />
     <project path="external/zlib" name="lin14-mGoms/android_external_zlib" revision="cm-14.1" />
