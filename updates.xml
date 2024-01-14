@@ -15,9 +15,6 @@
            name="MSe1969/android_prebuilts_prebuiltapks"
            clone-depth="1" revision="master" />
 
-  <!-- Mulch webview -->
-  <project name="divested-mobile/mulch" path="external/Mulch" remote="Gitlab" revision="m119" />
-
   <!-- Privacy friendly netmonitor -->
   <project path="external/secuso/privacy-friendly-netmonitor"
            name="MSe1969/privacy-friendly-netmonitor-prebuilt"
