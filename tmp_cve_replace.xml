@@ -31,6 +31,7 @@
     <remove-project name="LineageOS/android_system_bt" />
 
     <remove-project name="platform/external/expat" />
+    <remove-project name="platform/external/giflib" />
     <remove-project name="platform/external/webp" />
     <remove-project name="platform/system/ca-certificates" />
 
@@ -43,6 +44,7 @@
     <project path="external/icu" name="lin14-mGoms/android_external_icu" revision="cm-14.1" />
     <project path="external/flac" name="lin14-mGoms/android_external_flac" revision="cm-14.1" />
     <project path="external/freetype" name="LineageOS/android_external_freetype" revision="lineage-18.1" />
+    <project path="external/giflib" name="lin14-mGoms/android_external_giflib" groups="pdk,qcom_msm8x26" />
     <project path="external/libavc" name="lin14-mGoms/android_external_libavc" revision="cm-14.1" />
     <project path="external/libexif" name="lin14-mGoms/android_external_libexif" revision="cm-14.1" />
     <project path="external/libnfc-nci" name="lin14-mGoms/android_external_libnfc-nci" revision="cm-14.1" />
