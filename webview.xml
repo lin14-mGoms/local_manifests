@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="codeberg" fetch="https://codeberg.org" />
+
   <remove-project name="LineageOS/android_external_chromium-webview" />
 
   <!-- Chromium webview does not support Android N any longer, so we work-around for now
@@ -15,5 +17,5 @@
   <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" clone-depth="1" revision="main" />
   -->
 
-  <project path="external/cromite-webview" name="syphyr/android_external_cromite-webview" revision="master" />
+  <project path="external/cromite-webview" name="MSe1969/android_external_cromite-webview" revision="master" remote="codeberg" />
 </manifest>
