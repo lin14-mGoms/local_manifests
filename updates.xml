@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="Gitlab" fetch="https://gitlab.com" />
-
   <!-- Static OTA updater resource -->
   <project path="OTA" name="lin14-mGoms/OTA" revision="cm-14.1" />
 
   <!-- Forked Jelly Browser -->
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
-  <project path="packages/apps/Jelly" name="lin14-mGoms/android_packages_apps_Jelly" />
+  <project path="packages/apps/Jelly" name="lin14-mGoms/android_packages_apps_Jelly" remote="codeberg" />
 
   <!-- microG Build, prebuilt apks -->
   <project path="prebuilts/prebuiltapks"
@@ -25,15 +23,15 @@
 
   <!-- Patches & root-scripts Directory -->
   <project path="z_patches" name="lin14-mGoms/z_patches" revision="cm-14.1" />
-  <project path="z_patches/root-scripts" name="lin14-mGoms/root-scripts" revision="cm-14.1" />
+  <project path="z_patches/root-scripts" name="lin14-mGoms/root-scripts" revision="cm-14.1" remote="codeberg" />
 
   <!-- Replaced/enhanced Repositories -->
   <remove-project name="LineageOS/android_external_ffmpeg" />
   <project path="external/ffmpeg" name="lin14-mGoms/android_external_ffmpeg" />
   <remove-project name="LineageOS/android_external_iptables" />
-  <project path="external/iptables" name="lin14-mGoms/android_external_iptables" groups="pdk" />
+  <project path="external/iptables" name="lin14-mGoms/android_external_iptables" groups="pdk" remote="codeberg" />
   <remove-project name="LineageOS/android_external_sqlite" />
-  <project path="external/sqlite" name="lin14-mGoms/android_external_sqlite" />  
+  <project path="external/sqlite" name="lin14-mGoms/android_external_sqlite" remote="codeberg" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <project path="frameworks/base" name="lin14-mGoms/android_frameworks_base" />  
   <remove-project name="LineageOS/android_frameworks_native" />
