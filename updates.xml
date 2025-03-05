@@ -35,11 +35,11 @@
   <remove-project name="LineageOS/android_external_sqlite" />
   <project path="external/sqlite" name="lin14-mGoms/android_external_sqlite" revision="cm-14.1-microG" remote="codeberg" />
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="lin14-mGoms/android_frameworks_base" revision="cm-14.1-microG" />
+  <project path="frameworks/base" name="lin14-mGoms/android_frameworks_base" revision="cm-14.1-microG" remote="codeberg" />
   <remove-project name="LineageOS/android_frameworks_native" />
-  <project path="frameworks/native" name="lin14-mGoms/android_frameworks_native" revision="cm-14.1-microG" />
+  <project path="frameworks/native" name="lin14-mGoms/android_frameworks_native" revision="cm-14.1-microG" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="lin14-mGoms/android_packages_apps_Settings" revision="cm-14.1-microG" />
+  <project path="packages/apps/Settings" name="lin14-mGoms/android_packages_apps_Settings" revision="cm-14.1-microG" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SetupWizard" name="lin14-mGoms/android_packages_apps_SetupWizard"
            revision="cm-14.1-microG" remote="codeberg" />
@@ -48,7 +48,6 @@
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project path="system/sepolicy" name="lin14-mGoms/android_system_sepolicy" revision="cm-14.1-microG" remote="codeberg" />
   <remove-project name="LineageOS/android_vendor_cm" />
-  <project path="vendor/cm" name="lin14-mGoms/android_vendor_cm" revision="cm-14.1-microG" />
+  <project path="vendor/cm" name="lin14-mGoms/android_vendor_cm" revision="cm-14.1-microG" remote="codeberg" />
 
 </manifest> 
-
