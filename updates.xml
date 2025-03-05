@@ -23,12 +23,12 @@
            revision="master" clone-depth="1" remote="codeberg" />
 
   <!-- Patches & root-scripts Directory -->
-  <project path="z_patches" name="lin14-mGoms/z_patches" revision="cm-14.1-microG" />
+  <project path="z_patches" name="lin14-mGoms/z_patches" revision="cm-14.1-microG" remote="codeberg" />
   <project path="z_patches/root-scripts" name="lin14-mGoms/root-scripts" revision="cm-14.1" remote="codeberg" />
 
   <!-- Replaced/enhanced Repositories -->
   <remove-project name="LineageOS/android_external_ffmpeg" />
-  <project path="external/ffmpeg" name="lin14-mGoms/android_external_ffmpeg" revision="cm-14.1-microG" />
+  <project path="external/ffmpeg" name="lin14-mGoms/android_external_ffmpeg" revision="cm-14.1-microG" remote="codeberg" />
   <remove-project name="LineageOS/android_external_iptables" />
   <project path="external/iptables" name="lin14-mGoms/android_external_iptables"
            groups="pdk" revision="cm-14.1-microG" remote="codeberg" />
@@ -46,7 +46,7 @@
   <remove-project name="LineageOS/android_system_core" />
   <project path="system/core" name="lin14-mGoms/android_system_core" revision="cm-14.1-microG" remote="codeberg" />
   <remove-project name="LineageOS/android_system_sepolicy" />
-  <project path="system/sepolicy" name="lin14-mGoms/android_system_sepolicy" revision="cm-14.1-microG" />
+  <project path="system/sepolicy" name="lin14-mGoms/android_system_sepolicy" revision="cm-14.1-microG" remote="codeberg" />
   <remove-project name="LineageOS/android_vendor_cm" />
   <project path="vendor/cm" name="lin14-mGoms/android_vendor_cm" revision="cm-14.1-microG" />
 
