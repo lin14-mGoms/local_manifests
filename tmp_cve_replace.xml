@@ -40,7 +40,7 @@
     <project path="bionic" name="lin14-mGoms/android_bionic" revision="cm-14.1" remote="codeberg" />
     <project path="external/aac" name="lin14-mGoms/android_external_aac" revision="lineage-17.1" remote="codeberg" />
     <project path="external/boringssl" name="lin14-mGoms/android_external_boringssl" revision="cm-14.1" remote="codeberg" />
-    <project path="external/expat" name="lin14-mGoms/android_external_expat" revision="cm-14.1" />
+    <project path="external/expat" name="lin14-mGoms/android_external_expat" revision="cm-14.1" remote="codeberg" />
     <project path="external/icu" name="lin14-mGoms/android_external_icu" revision="cm-14.1" remote="codeberg" />
     <project path="external/flac" name="lin14-mGoms/android_external_flac" revision="cm-14.1" remote="codeberg" />
     <project path="external/freetype" name="LineageOS/android_external_freetype" revision="lineage-18.1" />
@@ -50,12 +50,12 @@
     <project path="external/libnfc-nci" name="lin14-mGoms/android_external_libnfc-nci" revision="cm-14.1" remote="codeberg" />
     <project path="external/libvpx" name="lin14-mGoms/android_external_libvpx" revision="cm-14.1" remote="codeberg" />
     <project path="external/libxml2" name="lin14-mGoms/android_external_libxml2" revision="cm-14.1" remote="codeberg" />
-    <project path="external/skia" name="lin14-mGoms/android_external_skia" groups="pdk,qcom_msm8x26" />
-    <project path="external/sonivox" name="lin14-mGoms/android_external_sonivox" revision="cm-14.1" />
+    <project path="external/skia" name="lin14-mGoms/android_external_skia" groups="pdk,qcom_msm8x26" remote="codeberg" />
+    <project path="external/sonivox" name="lin14-mGoms/android_external_sonivox" revision="cm-14.1" remote="codeberg" />
     <project path="external/tremolo" name="lin14-mGoms/android_external_tremolo" revision="cm-14.1" remote="codeberg" />
     <project path="external/zlib" name="lin14-mGoms/android_external_zlib" revision="cm-14.1" remote="codeberg" />
-    <project path="libcore" name="lin14-mGoms/android_libcore" revision="cm-14.1" />
-    <project path="frameworks/av" name="lin14-mGoms/android_frameworks_av" revision="cm-14.1" />
+    <project path="libcore" name="lin14-mGoms/android_libcore" revision="cm-14.1" remote="codeberg" />
+    <project path="frameworks/av" name="lin14-mGoms/android_frameworks_av" revision="cm-14.1" remote="codeberg" />
     <project path="frameworks/minikin" name="lin14-mGoms/android_frameworks_minikin" revision="cm-14.1" remote="codeberg" />
     <project path="packages/apps/Bluetooth" name="lin14-mGoms/android_packages_apps_Bluetooth" revision="cm-14.1" />
     <project path="packages/apps/KeyChain" name="lin14-mGoms/android_packages_apps_KeyChain" revision="cm-14.1" remote="codeberg" />
