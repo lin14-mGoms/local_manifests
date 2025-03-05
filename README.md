@@ -1,4 +1,4 @@
-# local_manifests
+# local_manifests - MIGRATED TO CODEBERG
 
 **This organization has been migrated to codeberg.org and is not any longer actively maintained on Github**
 
