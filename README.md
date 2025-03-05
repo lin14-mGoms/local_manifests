@@ -1,5 +1,9 @@
 # local_manifests
 
+**This organization has been migrated to codeberg.org and is not any longer actively maintained on Github**
+
+**Please visit https://codeberg.org/lin14-mGoms/local_manifests**
+
 To build my specific LineageOS 14.1 version for the Osprey, Falcon, Peregrine and SM-T815 device, follow the steps below:
 
 ## Setup build tree
