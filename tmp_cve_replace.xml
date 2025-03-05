@@ -44,7 +44,7 @@
     <project path="external/icu" name="lin14-mGoms/android_external_icu" revision="cm-14.1" remote="codeberg" />
     <project path="external/flac" name="lin14-mGoms/android_external_flac" revision="cm-14.1" remote="codeberg" />
     <project path="external/freetype" name="LineageOS/android_external_freetype" revision="lineage-18.1" />
-    <project path="external/giflib" name="lin14-mGoms/android_external_giflib" groups="pdk,qcom_msm8x26" />
+    <project path="external/giflib" name="lin14-mGoms/android_external_giflib" groups="pdk,qcom_msm8x26" remote="codeberg" />
     <project path="external/libavc" name="lin14-mGoms/android_external_libavc" revision="cm-14.1" remote="codeberg" />
     <project path="external/libexif" name="lin14-mGoms/android_external_libexif" revision="cm-14.1" remote="codeberg" />
     <project path="external/libnfc-nci" name="lin14-mGoms/android_external_libnfc-nci" revision="cm-14.1" remote="codeberg" />
@@ -57,7 +57,7 @@
     <project path="libcore" name="lin14-mGoms/android_libcore" revision="cm-14.1" remote="codeberg" />
     <project path="frameworks/av" name="lin14-mGoms/android_frameworks_av" revision="cm-14.1" remote="codeberg" />
     <project path="frameworks/minikin" name="lin14-mGoms/android_frameworks_minikin" revision="cm-14.1" remote="codeberg" />
-    <project path="packages/apps/Bluetooth" name="lin14-mGoms/android_packages_apps_Bluetooth" revision="cm-14.1" />
+    <project path="packages/apps/Bluetooth" name="lin14-mGoms/android_packages_apps_Bluetooth" revision="cm-14.1" remote="codeberg" />
     <project path="packages/apps/KeyChain" name="lin14-mGoms/android_packages_apps_KeyChain" revision="cm-14.1" remote="codeberg" />
     <project path="packages/apps/Nfc" name="lin14-mGoms/android_packages_apps_Nfc" revision="cm-14.1" remote="codeberg" />
     <project path="packages/apps/TvSettings" name="lin14-mGoms/android_packages_apps_TvSettings"
@@ -71,7 +71,7 @@
     <project path="packages/services/Telecomm" name="lin14-mGoms/android_packages_services_Telecomm" revision="cm-14.1" remote="codeberg" />
     <project path="packages/services/Telephony" name="lin14-mGoms/android_packages_services_Telephony"
              revision="cm-14.1" remote="codeberg" />
-    <project path="system/bt" name="lin14-mGoms/android_system_bt" revision="cm-14.1" />
+    <project path="system/bt" name="lin14-mGoms/android_system_bt" revision="cm-14.1" remote="codeberg" />
     <project path="system/ca-certificates" name="lin14-mGoms/android_system_ca-certificates"
              revision="android12-release" remote="codeberg" />
 </manifest>

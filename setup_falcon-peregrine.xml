@@ -13,7 +13,7 @@
 
   <!-- Own Device configurations -->
   <remove-project name="LineageOS/android_device_motorola_falcon" />
-  <project name="lin14-mGoms/android_device_motorola_falcon" path="device/motorola/falcon" />
+  <project name="lin14-mGoms/android_device_motorola_falcon" path="device/motorola/falcon" remote="codeberg" />
   <remove-project name="LineageOS/android_device_motorola_peregrine" />
-  <project name="lin14-mGoms/android_device_motorola_peregrine" path="device/motorola/peregrine" />
+  <project name="lin14-mGoms/android_device_motorola_peregrine" path="device/motorola/peregrine" remote="codeberg" />
 </manifest>
